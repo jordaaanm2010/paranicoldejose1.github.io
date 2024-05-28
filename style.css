@@ -1,0 +1,44 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.message {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+#yes {
+    background-color: lightgreen;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#no {
+    background-color: lightcoral;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hidden-message {
+    display: none;
+    font-size: 2em;
+    background-color: lightcoral;
+    color: white;
+    text-transform: uppercase;
+}
